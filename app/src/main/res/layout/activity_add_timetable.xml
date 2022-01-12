@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grad_bg"
+    tools:context=".Add_timetable">
+    <!--    <androidx.constraintlayout.widget.ConstraintLayout-->
+    <!--        android:layout_width="458dp"-->
+    <!--        android:layout_height="788dp"-->
+    <!--        android:background="@drawable/grad_bg"-->
+    <!--        android:minWidth="50dp"-->
+    <!--        android:minHeight="50dp"-->
+    <!--        tools:layout_editor_absoluteX="1dp"-->
+    <!--        tools:layout_editor_absoluteY="-1dp">-->
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="309dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="45dp"
+        android:textAlignment="center"
+        android:textColor="@color/c7"
+
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/editText6"
+        app:layout_constraintEnd_toEndOf="@+id/batch"
+        app:layout_constraintStart_toStartOf="@+id/batch"
+        app:layout_constraintTop_toBottomOf="@+id/batch" />
+
+
+    <TextView
+        android:id="@+id/batch"
+        android:layout_width="0dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="4dp"
+        android:text="@string/timetable"
+        android:textAlignment="center"
+        android:textColor="@color/c7"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/editText6"
+        android:layout_width="274dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="44dp"
+
+        android:layout_marginBottom="16dp"
+        android:clickable="false"
+
+        android:hint="@string/date"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/editText10"
+        app:layout_constraintEnd_toStartOf="@+id/button18"
+        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+
+    <TextView
+        android:id="@+id/editText12"
+        android:layout_width="274dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="24dp"
+        android:enabled="false"
+        android:hint="@string/end"
+        android:onClick="EndTime"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:textAlignment="center"
+        android:textColor="@color/timetablecolor"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/button20"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editText11"
+        app:layout_constraintTop_toBottomOf="@+id/editText11" />
+
+    <TextView
+        android:id="@+id/editText11"
+        android:layout_width="274dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:clickable="false"
+        android:hint="@string/start"
+        android:onClick="viewTime"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:textAlignment="center"
+        android:textColor="@color/timetablecolor"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/editText12"
+        app:layout_constraintEnd_toStartOf="@+id/button19"
+        app:layout_constraintStart_toStartOf="@+id/editText10"
+        app:layout_constraintTop_toBottomOf="@+id/editText10" />
+
+    <EditText
+        android:id="@+id/editText10"
+        android:layout_width="379dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/Description"
+        android:inputType="textMultiLine"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/editText11"
+        app:layout_constraintEnd_toEndOf="@+id/button18"
+        app:layout_constraintStart_toStartOf="@+id/editText6"
+        app:layout_constraintTop_toBottomOf="@+id/editText6" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_bg"
+        android:onClick="save"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="@string/submit"
+        android:textColor="@color/chatcolor"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/button20"
+        app:layout_constraintTop_toTopOf="@+id/button12" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/btn_bg"
+        android:onClick="viewtime"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="@string/viewtime"
+        android:textColor="@color/chatcolor"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button13"
+        app:layout_constraintHorizontal_bias="0.265"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText12"
+        app:layout_constraintVertical_bias="0.506" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@android:drawable/ic_menu_my_calendar"
+        android:onClick="viewDate"
+        app:layout_constraintBottom_toBottomOf="@+id/editText6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/editText6"
+        app:layout_constraintTop_toTopOf="@+id/editText6"
+        app:layout_constraintVertical_bias="0.6" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:background="@android:drawable/ic_menu_recent_history"
+        android:onClick="viewTime"
+        app:layout_constraintBottom_toBottomOf="@+id/editText11"
+        app:layout_constraintEnd_toEndOf="@+id/editText10"
+        app:layout_constraintStart_toEndOf="@+id/editText11"
+        app:layout_constraintTop_toTopOf="@+id/editText11" />
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:background="@android:drawable/ic_menu_recent_history"
+        android:onClick="endttime"
+        app:layout_constraintBottom_toBottomOf="@+id/editText12"
+        app:layout_constraintEnd_toEndOf="@+id/button19"
+        app:layout_constraintStart_toStartOf="@+id/button19"
+        app:layout_constraintTop_toTopOf="@+id/editText12" />
+    <!--    </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

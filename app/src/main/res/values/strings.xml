@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">Project_protal</string>
+    <string name="signup">Sign Up</string>
+    <string name="fname">First Name</string>
+    <string name="lname">Last Name</string>
+    <string name="year">Year</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="cpassword">Conform-Password</string>
+    <string name="admin">Welcome Admin</string>
+    <string name="view">View Students</string>
+    <string name="time_table">Time Table</string>
+    <string name="Search">Search Student</string>
+    <string name="register_batch">Register Batch</string>
+    <string name="batch_Name">Batch Name</string>
+    <string name="batch_year">Batch Year</string>
+    <string name="send">Send</string>
+    <string name="name1">Name</string>
+    <string name="upload">Upload</string>
+    <string name="type">Type</string>
+    <string name="location">View Location</string>
+    <string name="class_location">Class Location</string>
+
+    <string name="fn">Kalpa</string>
+    <string name="ln">Sadaruwan</string>
+    <string name="em">kalpabandara13@gmail.com</string>
+    <string name="ba">Tenage 2012-2013</string>
+    <string name="v">View</string>
+    <string name="name">Student
+Communication Protal</string>
+    <string name="chat">Messages</string>
+    <string name="time">Time Table</string>
+    <string name="viewStudents">View Students</string>
+    <string name="rbatch">Register Batch</string>
+    <string name="chart">Class Payments</string>
+    <string name="chart1">Charts</string>
+
+    <string name="select_batch">Select Batch</string>
+    <string name="batch">Dragons 2018-2021</string>
+
+    <string name="timetable">MANAGE CLASS TIME TABLE</string>
+    <string name="submit">SUBMIT</string>
+    <string name="date">Select Date</string>
+    <string name="Description">Description</string>
+    <string name="start">Start time</string>
+    <string name="end">End time</string>
+
+    <string name="tdate">Date</string>
+    <string name="viewtime">View Time Table</string>
+    <string name="des">Description</string>
+    <string name="stime">Start time</string>
+    <string name="etime">End time</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_dash_board_navigation">Admin Panel</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Log out</string>
+    <string name="Settings">Settings</string>
+    <string name="choose">Choose</string>
+
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">View Profile</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_user_navigation">Student Protal User Panel</string>
+    <string name="title_activity_maps">Map</string>
+
+
+    <string name="ChPass">Change Password</string>
+    <string name="no_connection">No internet connection. Please check your internet connection.</string>
+
+    <string name="date_select">Date</string>
+    <string name="Time">Select</string>
+
+    <string name="manage_fees">Manage Monthly Fees</string>
+    <string name="select">Batch</string>
+    <string name="monthly_fee">Monthly Fee</string>
+
+</resources>

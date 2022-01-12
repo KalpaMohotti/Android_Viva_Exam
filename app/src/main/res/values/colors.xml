@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#23A7D8</color>
+    <color name="colorPrimaryDark">#23A7D8</color>
+    <color name="colorAccent">#FFFFFF</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="gradiantstart">#19AA8B</color>
+    <color name="gradiantend">#23A7D8</color>
+
+    <color name="c1">#D5571E</color>
+    <color name="c2">#1684D8</color>
+    <color name="c3">#B123C9</color>
+    <color name="c4">#F0F4F7</color>
+    <color name="c5">#359FF5</color>
+    <color name="c6">#D2E20C57</color>
+    <color name="black">#D20F0F0F</color>
+
+    <color name="c7">#F7F8F7</color>
+    <color name="c8">#2C93E7</color>
+    <color name="c9">#1E41F5</color>
+
+    <color name="chatcolor">#E1E1EB</color>
+    <color name="chatcolor2">#06CFF3</color>
+    <color name="chatcolor3">#DEE0E4</color>
+    <color name="timetablecolor">#3F393D</color>
+
+    <color name="updatecolor1">#DF20CC</color>
+    <color name="updatecolor2">#8D787E</color>
+
+</resources>

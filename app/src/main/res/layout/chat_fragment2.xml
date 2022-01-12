@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout1"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.002">
+
+        <!--<ImageView-->
+        <!--android:id="@+id/imageView3"-->
+        <!--android:layout_width="24dp"-->
+        <!--android:layout_height="38dp"-->
+        <!--android:layout_marginTop="0dp"-->
+        <!--android:layout_weight="3" />-->
+        <!--&lt;!&ndash;android:src="@drawable/user_pratikshya" &ndash;&gt;-->
+        <TextView
+            android:id="@+id/textDate"
+            android:layout_width="107dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="2018/2/5"
+            android:textSize="14sp" />
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageView1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="6.5dp"
+            android:layout_marginRight="-15dp"
+            android:layout_weight="1"
+            android:src="@drawable/images" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="6"
+            android:background="@drawable/rounded_corner1"
+            android:padding="16dp"
+            android:text="Malaka kasun"
+            android:textColor="#000" />
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
